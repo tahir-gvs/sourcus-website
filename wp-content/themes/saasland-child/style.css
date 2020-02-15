@@ -10,3 +10,127 @@ License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: saasland-child
 */
+
+/* SECTION _ BENEFITS */
+.benefit_box .benefit_box_disc {
+	border-top: 1px dotted #ccc;
+	padding-top: 5px;
+	margin-top: 6px;
+}
+.benefit_box h5 {
+	text-transform: uppercase;
+}
+.benefit_box p {
+	margin-bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+	.benefit_box.elementor-column {
+		display: block !important;
+		min-height: 300px;
+		padding: 0 10px;
+	}
+	.benefit_box > .elementor-column-wrap  {
+		border-radius: 8px;
+		min-height: 200px;
+	}
+	.benefit_box .benefit_box_disc {
+		display: none;
+		opacity: 0;
+		transition: all ease 0.5s;
+	}
+	.benefit_box:hover .benefit_box_disc {
+		display: block;
+		opacity: 1;
+		transition: all ease 0.5s;
+	}
+}
+
+/* SECTION _ SIGNUP */
+#signup .form-group {
+    margin-bottom: 30px;
+}
+#signup .btn_three {
+    background-color: #FFF;
+    color: #5e2ced;
+    border-width: 2px;
+    text-transform: uppercase;
+	min-width: 150px;
+    font-weight: 700;
+	font-size: 15px;
+    margin: auto;
+    display: block;
+}
+#signup .btn_three:hover {
+    background-color: transparent;
+    border-color: #FFF;
+	color: #FFF;
+}
+
+/* SECTION _ FEATURES */
+#feature_box h2.mb_90 {
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+#feature_box .symbols-pulse {
+	display: none;
+}
+#feature_box .prototype_service_info {
+	padding: 0 0 90px;
+}
+#feature_box .p_service_info {
+    margin-bottom: 0;
+}
+#feature_box .p_service_item.pr_70 {
+    display: flex;
+    padding: 0;
+    margin: 0 0 20px;
+    align-items: center;
+}
+#feature_box .p_service_item .icon {
+    flex-shrink: 0!important;
+	align-self: start;
+    margin: 0;
+}
+#feature_box .p_service_item h5 {
+    font-weight: 400;
+    padding: 0 20px;
+    width: 100%;
+    margin: 0;
+}
+#feature_box .p_service_item.pr_70 {
+    padding: 0;
+}
+#feature_box .p_service_info .col-lg-6:nth-of-type(odd) .icon {
+ 	order: 1;
+}
+#feature_box .p_service_info .col-lg-6:nth-of-type(odd) .p_service_item h5 {
+    text-align: right;
+}
+
+div#work_list ul.elementor-icon-list-items {
+	height: 300px;
+    overflow: hidden;
+/*     box-shadow: 0px -14px 22px -14px #33333363 inset; */
+}
+
+
+#signup span.wpcf7-not-valid-tip {
+	font-size: 12px;
+    color: #ddd;
+}
+#signup div.wpcf7-validation-errors,
+#signup div.wpcf7-acceptance-missing {
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+	color: #000;
+	font-size: 12px;
+    text-align: center;
+}
+#signup div.wpcf7-mail-sent-ng, div.wpcf7-aborted {
+    background-color: #e6b5b5;
+    color: red;
+    border: 0;
+	font-size: 12px;
+    text-align: center;
+}
