@@ -27,7 +27,7 @@ Text Domain: saasland-child
 @media screen and (min-width: 992px) {
 	.benefit_box.elementor-column {
 		display: block !important;
-		min-height: 300px;
+		min-height: 360px;
 		padding: 0 10px;
 	}
 	.benefit_box > .elementor-column-wrap  {
@@ -133,4 +133,75 @@ div#work_list ul.elementor-icon-list-items {
     border: 0;
 	font-size: 12px;
     text-align: center;
+}
+#signup .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {
+    color: #fff;
+}
+
+#works_boxs .new_service_content {
+    padding: 25px;
+	min-height: 100px;
+}
+#works_boxs .saas_features_item h4 {
+    margin: 0 0 15px;
+    font-size: 18px;
+}
+#works_boxs .saas_features_item p {
+    line-height: 22px;
+}
+#works_boxs .sec_pad {
+	padding: 10px 0 30px;
+}
+
+#candidate .card.wow.fadeInUp {
+    padding: 15px 20px;
+}
+#candidate .card button.btn.btn-link {
+    padding-top: 0;
+}
+#candidate .card i.ti-pie-chart {
+	font-size: 24px;
+}
+#candidate .card .card-body {
+    background: transparent;
+    padding: 10px 36px 0px 52px;
+}
+
+section#video_box {
+    background-color: #f7fdfc;
+}
+
+section#video_box iframe.elementor-video-iframe {
+    margin: auto;
+    left: 0;
+    right: 0;
+    border: 4px double #9876fb;
+    background-color: transparent;
+}
+
+#worksteps .new_service .col-lg-4:nth-child(8) .separator {
+    display: block;
+}
+#worksteps .new_service .col-lg-4:nth-child(7) .separator {
+    display: none;
+}
+#candidate_list .agency_featured_area {
+    padding-top: 100px;
+}
+
+#signup span.wpcf7-list-item {
+    margin: 0 0 20px 0;
+	font-size: 14px;
+}
+#signup span.wpcf7-list-item input {
+	position: relative;
+    top: 2px;
+	margin-right: 5px;
+
+}
+
+.seo_home_area .saas_home_img {
+    margin-top: 30px;
+    max-width: 600px;
+    margin: 30px auto 0;
 }
